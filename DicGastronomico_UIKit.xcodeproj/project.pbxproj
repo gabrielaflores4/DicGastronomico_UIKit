@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E810BFE2F6CC32600C3F206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E810BFD2F6CC32600C3F206 /* AppDelegate.swift */; };
+		0E810C002F6CC32600C3F206 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E810BFF2F6CC32600C3F206 /* SceneDelegate.swift */; };
+		0E810C022F6CC32600C3F206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E810C012F6CC32600C3F206 /* ViewController.swift */; };
+		0E810C052F6CC32600C3F206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C032F6CC32600C3F206 /* Main.storyboard */; };
+		0E810C072F6CC32800C3F206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C062F6CC32800C3F206 /* Assets.xcassets */; };
+		0E810C0A2F6CC32800C3F206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C082F6CC32800C3F206 /* LaunchScreen.storyboard */; };
+		0E810C152F6CC32900C3F206 /* DicGastronomico_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E810C142F6CC32900C3F206 /* DicGastronomico_UIKitTests.swift */; };
+		0E810C1F2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E810C1E2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.swift */; };
+		0E810C212F6CC32900C3F206 /* DicGastronomico_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E810C202F6CC32900C3F206 /* DicGastronomico_UIKitUITestsLaunchTests.swift */; };
+		0E810C342F6CE1E900C3F206 /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C2D2F6CE1E900C3F206 /* cake.png */; };
+		0E810C352F6CE1E900C3F206 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C2E2F6CE1E900C3F206 /* pizza.png */; };
+		0E810C362F6CE1E900C3F206 /* hamburguesa.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C2F2F6CE1E900C3F206 /* hamburguesa.png */; };
+		0E810C372F6CE1E900C3F206 /* soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C302F6CE1E900C3F206 /* soup.png */; };
+		0E810C382F6CE1E900C3F206 /* macarons.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C312F6CE1E900C3F206 /* macarons.png */; };
+		0E810C392F6CE1EA00C3F206 /* pasta.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C322F6CE1E900C3F206 /* pasta.png */; };
+		0E810C3A2F6CE1EA00C3F206 /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E810C332F6CE1E900C3F206 /* sushi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E810C112F6CC32900C3F206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E810BF22F6CC32600C3F206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E810BF92F6CC32600C3F206;
+			remoteInfo = DicGastronomico_UIKit;
+		};
+		0E810C1B2F6CC32900C3F206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E810BF22F6CC32600C3F206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E810BF92F6CC32600C3F206;
+			remoteInfo = DicGastronomico_UIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E810BFA2F6CC32600C3F206 /* DicGastronomico_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DicGastronomico_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E810BFD2F6CC32600C3F206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E810BFF2F6CC32600C3F206 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E810C012F6CC32600C3F206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E810C042F6CC32600C3F206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E810C062F6CC32800C3F206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E810C092F6CC32800C3F206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E810C0B2F6CC32800C3F206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E810C102F6CC32900C3F206 /* DicGastronomico_UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicGastronomico_UIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E810C142F6CC32900C3F206 /* DicGastronomico_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicGastronomico_UIKitTests.swift; sourceTree = "<group>"; };
+		0E810C1A2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicGastronomico_UIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E810C1E2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicGastronomico_UIKitUITests.swift; sourceTree = "<group>"; };
+		0E810C202F6CC32900C3F206 /* DicGastronomico_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicGastronomico_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E810C2D2F6CE1E900C3F206 /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
+		0E810C2E2F6CE1E900C3F206 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		0E810C2F2F6CE1E900C3F206 /* hamburguesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburguesa.png; sourceTree = "<group>"; };
+		0E810C302F6CE1E900C3F206 /* soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soup.png; sourceTree = "<group>"; };
+		0E810C312F6CE1E900C3F206 /* macarons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macarons.png; sourceTree = "<group>"; };
+		0E810C322F6CE1E900C3F206 /* pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasta.png; sourceTree = "<group>"; };
+		0E810C332F6CE1E900C3F206 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E810BF72F6CC32600C3F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E810C0D2F6CC32900C3F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E810C172F6CC32900C3F206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E810BF12F6CC32600C3F206 = {
+			isa = PBXGroup;
+			children = (
+				0E810BFC2F6CC32600C3F206 /* DicGastronomico_UIKit */,
+				0E810C132F6CC32900C3F206 /* DicGastronomico_UIKitTests */,
+				0E810C1D2F6CC32900C3F206 /* DicGastronomico_UIKitUITests */,
+				0E810BFB2F6CC32600C3F206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E810BFB2F6CC32600C3F206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E810BFA2F6CC32600C3F206 /* DicGastronomico_UIKit.app */,
+				0E810C102F6CC32900C3F206 /* DicGastronomico_UIKitTests.xctest */,
+				0E810C1A2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E810BFC2F6CC32600C3F206 /* DicGastronomico_UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0E810BFD2F6CC32600C3F206 /* AppDelegate.swift */,
+				0E810BFF2F6CC32600C3F206 /* SceneDelegate.swift */,
+				0E810C012F6CC32600C3F206 /* ViewController.swift */,
+				0E810C032F6CC32600C3F206 /* Main.storyboard */,
+				0E810C062F6CC32800C3F206 /* Assets.xcassets */,
+				0E810C2D2F6CE1E900C3F206 /* cake.png */,
+				0E810C2F2F6CE1E900C3F206 /* hamburguesa.png */,
+				0E810C312F6CE1E900C3F206 /* macarons.png */,
+				0E810C322F6CE1E900C3F206 /* pasta.png */,
+				0E810C2E2F6CE1E900C3F206 /* pizza.png */,
+				0E810C302F6CE1E900C3F206 /* soup.png */,
+				0E810C332F6CE1E900C3F206 /* sushi.png */,
+				0E810C082F6CC32800C3F206 /* LaunchScreen.storyboard */,
+				0E810C0B2F6CC32800C3F206 /* Info.plist */,
+			);
+			path = DicGastronomico_UIKit;
+			sourceTree = "<group>";
+		};
+		0E810C132F6CC32900C3F206 /* DicGastronomico_UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E810C142F6CC32900C3F206 /* DicGastronomico_UIKitTests.swift */,
+			);
+			path = DicGastronomico_UIKitTests;
+			sourceTree = "<group>";
+		};
+		0E810C1D2F6CC32900C3F206 /* DicGastronomico_UIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E810C1E2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.swift */,
+				0E810C202F6CC32900C3F206 /* DicGastronomico_UIKitUITestsLaunchTests.swift */,
+			);
+			path = DicGastronomico_UIKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E810BF92F6CC32600C3F206 /* DicGastronomico_UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E810C242F6CC32900C3F206 /* Build configuration list for PBXNativeTarget "DicGastronomico_UIKit" */;
+			buildPhases = (
+				0E810BF62F6CC32600C3F206 /* Sources */,
+				0E810BF72F6CC32600C3F206 /* Frameworks */,
+				0E810BF82F6CC32600C3F206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DicGastronomico_UIKit;
+			productName = DicGastronomico_UIKit;
+			productReference = 0E810BFA2F6CC32600C3F206 /* DicGastronomico_UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E810C0F2F6CC32900C3F206 /* DicGastronomico_UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E810C272F6CC32900C3F206 /* Build configuration list for PBXNativeTarget "DicGastronomico_UIKitTests" */;
+			buildPhases = (
+				0E810C0C2F6CC32900C3F206 /* Sources */,
+				0E810C0D2F6CC32900C3F206 /* Frameworks */,
+				0E810C0E2F6CC32900C3F206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E810C122F6CC32900C3F206 /* PBXTargetDependency */,
+			);
+			name = DicGastronomico_UIKitTests;
+			productName = DicGastronomico_UIKitTests;
+			productReference = 0E810C102F6CC32900C3F206 /* DicGastronomico_UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E810C192F6CC32900C3F206 /* DicGastronomico_UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E810C2A2F6CC32900C3F206 /* Build configuration list for PBXNativeTarget "DicGastronomico_UIKitUITests" */;
+			buildPhases = (
+				0E810C162F6CC32900C3F206 /* Sources */,
+				0E810C172F6CC32900C3F206 /* Frameworks */,
+				0E810C182F6CC32900C3F206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E810C1C2F6CC32900C3F206 /* PBXTargetDependency */,
+			);
+			name = DicGastronomico_UIKitUITests;
+			productName = DicGastronomico_UIKitUITests;
+			productReference = 0E810C1A2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E810BF22F6CC32600C3F206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0E810BF92F6CC32600C3F206 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0E810C0F2F6CC32900C3F206 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0E810BF92F6CC32600C3F206;
+					};
+					0E810C192F6CC32900C3F206 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0E810BF92F6CC32600C3F206;
+					};
+				};
+			};
+			buildConfigurationList = 0E810BF52F6CC32600C3F206 /* Build configuration list for PBXProject "DicGastronomico_UIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E810BF12F6CC32600C3F206;
+			productRefGroup = 0E810BFB2F6CC32600C3F206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E810BF92F6CC32600C3F206 /* DicGastronomico_UIKit */,
+				0E810C0F2F6CC32900C3F206 /* DicGastronomico_UIKitTests */,
+				0E810C192F6CC32900C3F206 /* DicGastronomico_UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E810BF82F6CC32600C3F206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E810C352F6CE1E900C3F206 /* pizza.png in Resources */,
+				0E810C372F6CE1E900C3F206 /* soup.png in Resources */,
+				0E810C0A2F6CC32800C3F206 /* LaunchScreen.storyboard in Resources */,
+				0E810C382F6CE1E900C3F206 /* macarons.png in Resources */,
+				0E810C3A2F6CE1EA00C3F206 /* sushi.png in Resources */,
+				0E810C072F6CC32800C3F206 /* Assets.xcassets in Resources */,
+				0E810C392F6CE1EA00C3F206 /* pasta.png in Resources */,
+				0E810C052F6CC32600C3F206 /* Main.storyboard in Resources */,
+				0E810C362F6CE1E900C3F206 /* hamburguesa.png in Resources */,
+				0E810C342F6CE1E900C3F206 /* cake.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E810C0E2F6CC32900C3F206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E810C182F6CC32900C3F206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E810BF62F6CC32600C3F206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E810C022F6CC32600C3F206 /* ViewController.swift in Sources */,
+				0E810BFE2F6CC32600C3F206 /* AppDelegate.swift in Sources */,
+				0E810C002F6CC32600C3F206 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E810C0C2F6CC32900C3F206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E810C152F6CC32900C3F206 /* DicGastronomico_UIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E810C162F6CC32900C3F206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E810C1F2F6CC32900C3F206 /* DicGastronomico_UIKitUITests.swift in Sources */,
+				0E810C212F6CC32900C3F206 /* DicGastronomico_UIKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E810C122F6CC32900C3F206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E810BF92F6CC32600C3F206 /* DicGastronomico_UIKit */;
+			targetProxy = 0E810C112F6CC32900C3F206 /* PBXContainerItemProxy */;
+		};
+		0E810C1C2F6CC32900C3F206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E810BF92F6CC32600C3F206 /* DicGastronomico_UIKit */;
+			targetProxy = 0E810C1B2F6CC32900C3F206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E810C032F6CC32600C3F206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E810C042F6CC32600C3F206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E810C082F6CC32800C3F206 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E810C092F6CC32800C3F206 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E810C222F6CC32900C3F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E810C232F6CC32900C3F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E810C252F6CC32900C3F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DicGastronomico_UIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrielaflores.DicGastronomico-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E810C262F6CC32900C3F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DicGastronomico_UIKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrielaflores.DicGastronomico-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E810C282F6CC32900C3F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrielaflores.DicGastronomico-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DicGastronomico_UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DicGastronomico_UIKit";
+			};
+			name = Debug;
+		};
+		0E810C292F6CC32900C3F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrielaflores.DicGastronomico-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DicGastronomico_UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DicGastronomico_UIKit";
+			};
+			name = Release;
+		};
+		0E810C2B2F6CC32900C3F206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrielaflores.DicGastronomico-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DicGastronomico_UIKit;
+			};
+			name = Debug;
+		};
+		0E810C2C2F6CC32900C3F206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrielaflores.DicGastronomico-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DicGastronomico_UIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E810BF52F6CC32600C3F206 /* Build configuration list for PBXProject "DicGastronomico_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E810C222F6CC32900C3F206 /* Debug */,
+				0E810C232F6CC32900C3F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E810C242F6CC32900C3F206 /* Build configuration list for PBXNativeTarget "DicGastronomico_UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E810C252F6CC32900C3F206 /* Debug */,
+				0E810C262F6CC32900C3F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E810C272F6CC32900C3F206 /* Build configuration list for PBXNativeTarget "DicGastronomico_UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E810C282F6CC32900C3F206 /* Debug */,
+				0E810C292F6CC32900C3F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E810C2A2F6CC32900C3F206 /* Build configuration list for PBXNativeTarget "DicGastronomico_UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E810C2B2F6CC32900C3F206 /* Debug */,
+				0E810C2C2F6CC32900C3F206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E810BF22F6CC32600C3F206 /* Project object */;
+}
