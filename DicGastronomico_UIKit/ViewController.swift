@@ -40,13 +40,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        super.viewDidLoad()
-
         self.title = "Diccionario Gastronómico"
 
         tabComida.dataSource = self
         tabComida.delegate = self
-
+        tabComida.rowHeight = 80
         nombresComidas = Array(diccionarioComidas.keys)
         
     }
@@ -57,20 +55,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let celda = tableView.dequeueReusableCell(withIdentifier: "celda", for: indexPath)
+        var celda = tableView.dequeueReusableCell(withIdentifier: "celda")
+            
+            if celda == nil {
+                celda = UITableViewCell(style: .subtitle, reuseIdentifier: "celda")
+            }
 
-        let nombre = nombresComidas[indexPath.row]
-        celda.textLabel?.text = nombre
+            let nombre = nombresComidas[indexPath.row]
+            celda?.textLabel?.text = nombre
 
-        if let info = diccionarioComidas[nombre] {
-            celda.imageView?.image = UIImage(named: info["imagen"]!)
-            celda.detailTextLabel?.text = info["descripcion"]
-        }
+            if let info = diccionarioComidas[nombre],
+               let imagenNombre = info["imagen"],
+               let descripcion = info["descripcion"] {
 
-        celda.imageView?.contentMode = .scaleAspectFill
-        celda.imageView?.clipsToBounds = true
-
-        return celda
+                celda?.imageView?.image = UIImage(named: imagenNombre)
+                celda?.detailTextLabel?.text = descripcion
+                celda?.imageView?.contentMode = .scaleAspectFit
+                celda?.imageView?.layer.cornerRadius = 10
+                celda?.imageView?.clipsToBounds = true
+                celda?.imageView?.frame.size = CGSize(width: 60, height: 60)
+            }
+            return celda!
     }
 }
 
